@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DrishtiCare Logo Refinement</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 24px 32px;
+      border-radius: 20px;
+      border: 1px solid #334155;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+    .header-sim {
+      background: #ffffff;
+      padding: 12px 24px;
+      border-radius: 16px;
+      width: 650px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
+  </style>
+</head>
+<body>
+  <h2>DrishtiCare Vector Logo (Refined Geometry)</h2>
+
+  <div class="card">
+    <div style="text-align: center;">
+      <p style="font-size: 11px; color: #94a3b8; margin-bottom: 8px;">Version A: Bold Curved Aperture</p>
+      <svg width="180" height="180" viewBox="0 0 200 200" fill="none">
+        <defs>
+          <linearGradient id="dc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0284c7" />
+            <stop offset="100%" stop-color="#0ea5e9" />
+          </linearGradient>
+        </defs>
+
+        <!-- Top Bold Swoosh -->
+        <path d="M 18,100 
+                 C 36,44 68,24 100,24 
+                 C 134,24 164,44 182,100 
+                 C 158,68 136,52 108,52 
+                 C 86,52 68,62 58,74 
+                 C 72,56 94,48 116,48 
+                 C 134,48 144,60 141,78 
+                 C 136,60 118,44 94,44 
+                 C 62,44 36,68 18,100 Z" 
+              fill="url(#dc-grad)" />
+
+        <!-- Bottom Bold Swoosh (180 deg) -->
+        <g transform="rotate(180 100 100)">
+          <path d="M 18,100 
+                   C 36,44 68,24 100,24 
+                   C 134,24 164,44 182,100 
+                   C 158,68 136,52 108,52 
+                   C 86,52 68,62 58,74 
+                   C 72,56 94,48 116,48 
+                   C 134,48 144,60 141,78 
+                   C 136,60 118,44 94,44 
+                   C 62,44 36,68 18,100 Z" 
+                fill="url(#dc-grad)" />
+        </g>
+
+        <!-- Retinal / Fundus Dark Pupil Circle -->
+        <circle cx="100" cy="100" r="34" fill="#18181b" />
+
+        <!-- Optic Disc Highlight (Upper-Left) -->
+        <circle cx="86" cy="85" r="8" fill="#ffffff" />
+
+        <!-- Neural Network Lines -->
+        <g stroke="#cbd5e1" stroke-width="1.3" opacity="0.95">
+          <line x1="72" y1="100" x2="86" y2="85" />
+          <line x1="86" y1="85" x2="103" y2="78" />
+          <line x1="103" y1="78" x2="119" y2="91" />
+          <line x1="72" y1="100" x2="101" y2="98" />
+          <line x1="101" y1="98" x2="119" y2="91" />
+          <line x1="119" y1="91" x2="128" y2="103" />
+          <line x1="72" y1="100" x2="84" y2="117" />
+          <line x1="84" y1="117" x2="108" y2="114" />
+          <line x1="101" y1="98" x2="108" y2="114" />
+          <line x1="108" y1="114" x2="128" y2="103" />
+          <!-- Periphery branches -->
+          <line x1="72" y1="100" x2="68" y2="100" />
+          <line x1="84" y1="117" x2="75" y2="122" />
+          <line x1="108" y1="114" x2="111" y2="131" />
+          <line x1="103" y1="78" x2="104" y2="69" />
+          <line x1="119" y1="91" x2="131" y2="85" />
+          <line x1="128" y1="103" x2="132" y2="105" />
+        </g>
+
+        <!-- Neural Synapse Nodes -->
+        <g fill="#ffffff">
+          <circle cx="72" cy="100" r="3.2" />
+          <circle cx="103" cy="78" r="2.8" />
+          <circle cx="119" cy="91" r="3.2" />
+          <circle cx="101" cy="98" r="3.0" />
+          <circle cx="108" cy="114" r="3.0" />
+          <circle cx="128" cy="103" r="2.6" />
+          <circle cx="84" cy="117" r="2.8" />
+          <!-- Small perimeter anchor dots -->
+          <circle cx="68" cy="100" r="1.5" />
+          <circle cx="75" cy="122" r="1.5" />
+          <circle cx="111" cy="131" r="1.5" />
+          <circle cx="104" cy="69" r="1.5" />
+          <circle cx="131" cy="85" r="1.5" />
+          <circle cx="132" cy="105" r="1.5" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- Version B: Authentic Eye Swoosh (Identical to user image) -->
+    <div style="text-align: center;">
+      <p style="font-size: 11px; color: #94a3b8; margin-bottom: 8px;">Version B: Precision Contours</p>
+      <svg width="180" height="180" viewBox="0 0 200 200" fill="none">
+        <defs>
+          <linearGradient id="dc-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0284c7" />
+            <stop offset="100%" stop-color="#0ea5e9" />
+          </linearGradient>
+        </defs>
+
+        <!-- Upper Blue Wing: Sweeps from Left tip (18, 100), over top arch to (100, 24), down to (182, 100), then inner swoosh -->
+        <path d="M 18,100 
+                 C 40,40 70,24 100,24 
+                 C 134,24 165,44 182,100 
+                 C 160,60 130,44 100,44 
+                 C 74,44 54,58 44,76 
+                 C 58,62 80,54 106,54 
+                 C 132,54 146,68 141,86 
+                 C 135,66 116,48 90,48 
+                 C 60,48 34,70 18,100 Z" 
+              fill="url(#dc-grad2)" />
+
+        <!-- Lower Blue Wing (180 deg rotation) -->
+        <g transform="rotate(180 100 100)">
+          <path d="M 18,100 
+                   C 40,40 70,24 100,24 
+                   C 134,24 165,44 182,100 
+                   C 160,60 130,44 100,44 
+                   C 74,44 54,58 44,76 
+                   C 58,62 80,54 106,54 
+                   C 132,54 146,68 141,86 
+                   C 135,66 116,48 90,48 
+                   C 60,48 34,70 18,100 Z" 
+                fill="url(#dc-grad2)" />
+        </g>
+
+        <!-- Retinal / Fundus Dark Pupil Circle -->
+        <circle cx="100" cy="100" r="35" fill="#18181b" />
+
+        <!-- Optic Disc Highlight (Upper-Left) -->
+        <circle cx="85" cy="83" r="8.5" fill="#ffffff" />
+
+        <!-- AI Neural Network Lines -->
+        <g stroke="#cbd5e1" stroke-width="1.3" opacity="0.95">
+          <line x1="72" y1="100" x2="85" y2="83" />
+          <line x1="85" y1="83" x2="103" y2="76" />
+          <line x1="103" y1="76" x2="120" y2="90" />
+          <line x1="72" y1="100" x2="101" y2="98" />
+          <line x1="101" y1="98" x2="120" y2="90" />
+          <line x1="120" y1="90" x2="129" y2="103" />
+          <line x1="72" y1="100" x2="84" y2="118" />
+          <line x1="84" y1="118" x2="108" y2="115" />
+          <line x1="101" y1="98" x2="108" y2="115" />
+          <line x1="108" y1="115" x2="129" y2="103" />
+          <!-- Periphery branches -->
+          <line x1="72" y1="100" x2="67" y2="100" />
+          <line x1="84" y1="118" x2="74" y2="124" />
+          <line x1="108" y1="115" x2="111" y2="133" />
+          <line x1="103" y1="76" x2="104" y2="67" />
+          <line x1="120" y1="90" x2="132" y2="84" />
+          <line x1="129" y1="103" x2="133" y2="106" />
+        </g>
+
+        <!-- Neural Synapse Nodes -->
+        <g fill="#ffffff">
+          <circle cx="72" cy="100" r="3.2" />
+          <circle cx="103" cy="76" r="2.8" />
+          <circle cx="120" cy="90" r="3.2" />
+          <circle cx="101" cy="98" r="3.0" />
+          <circle cx="108" cy="115" r="3.0" />
+          <circle cx="129" cy="103" r="2.6" />
+          <circle cx="84" cy="118" r="2.8" />
+          <!-- Small perimeter anchor dots -->
+          <circle cx="67" cy="100" r="1.6" />
+          <circle cx="74" cy="124" r="1.6" />
+          <circle cx="111" cy="133" r="1.6" />
+          <circle cx="104" cy="67" r="1.6" />
+          <circle cx="132" cy="84" r="1.6" />
+          <circle cx="133" cy="106" r="1.6" />
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Header Appearance Simulation -->
+  <div class="header-sim">
+    <div style="width: 42px; height: 42px; border-radius: 12px; background: linear-gradient(135deg, #0284c7, #0ea5e9); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(2,132,199,0.35);">
+      <svg width="30" height="30" viewBox="0 0 200 200" fill="none">
+        <path d="M 18,100 C 40,40 70,24 100,24 C 134,24 165,44 182,100 C 160,60 130,44 100,44 C 74,44 54,58 44,76 C 58,62 80,54 106,54 C 132,54 146,68 141,86 C 135,66 116,48 90,48 C 60,48 34,70 18,100 Z" fill="#ffffff" />
+        <g transform="rotate(180 100 100)">
+          <path d="M 18,100 C 40,40 70,24 100,24 C 134,24 165,44 182,100 C 160,60 130,44 100,44 C 74,44 54,58 44,76 C 58,62 80,54 106,54 C 132,54 146,68 141,86 C 135,66 116,48 90,48 C 60,48 34,70 18,100 Z" fill="#ffffff" />
+        </g>
+        <circle cx="100" cy="100" r="35" fill="#0f172a" />
+        <circle cx="85" cy="83" r="8.5" fill="#ffffff" />
+        <g stroke="#94a3b8" stroke-width="1.6" opacity="0.95">
+          <line x1="72" y1="100" x2="85" y2="83" /><line x1="85" y1="83" x2="103" y2="76" /><line x1="103" y1="76" x2="120" y2="90" /><line x1="72" y1="100" x2="101" y2="98" /><line x1="101" y1="98" x2="120" y2="90" /><line x1="120" y1="90" x2="129" y2="103" /><line x1="72" y1="100" x2="84" y2="118" /><line x1="84" y1="118" x2="108" y2="115" /><line x1="101" y1="98" x2="108" y2="115" /><line x1="108" y1="115" x2="129" y2="103" />
+        </g>
+        <g fill="#ffffff">
+          <circle cx="72" cy="100" r="4.2" /><circle cx="103" cy="76" r="3.6" /><circle cx="120" cy="90" r="4.2" /><circle cx="101" cy="98" r="4.0" /><circle cx="108" cy="115" r="4.0" /><circle cx="129" cy="103" r="3.6" /><circle cx="84" cy="118" r="3.8" />
+        </g>
+      </svg>
+    </div>
+
+    <div>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="font-weight: 900; font-size: 20px; color: #0f172a; letter-spacing: -0.025em;">DrishtiCare</span>
+        <span style="font-size: 10px; font-weight: 700; color: #0369a1; background: #e0f2fe; padding: 2.5px 8px; border-radius: 999px; border: 1px solid #bae6fd; text-transform: uppercase;">Clinical Edition</span>
+      </div>
+      <p style="font-size: 11px; color: #64748b; margin: 0; font-weight: 500;">Explainable AI-Assisted Diabetic Retinopathy Screening for Rural Healthcare</p>
+    </div>
+  </div>
+</body>
+</html>
